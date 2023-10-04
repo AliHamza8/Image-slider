@@ -5,15 +5,67 @@
 }
 
 section {
+    margin-top: 1.2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    height: 100vh;
-    /* background-color: grey; */
+    height: 90vh;
+}
+
+button {
+    position: fixed;
+    padding: 1rem;
+    font-size: 5rem;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(211, 207, 207);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.prev {
+    top: 13.5rem;
+    left: 1rem;
+}
+
+.next {
+    top: 13.5rem;
+    right: 1rem;
 }
 
 img {
-    width: 12rem;
-    height: 10rem;
+    width: 40vw;
+    height: 90vh;
+    border-radius: 1rem;
+    cursor: pointer;
+    box-shadow: 1px 3px 14px 5px rgb(105, 104, 104);
+    transition: all 0.2s ease-in-out;
+}
+
+img:hover {
+    width: 42vw;
+    height: 92vh;
+    box-shadow: 3px 7px 10px 5px rgb(105, 104, 104);
+}
+
+.image {
+    margin: 0 auto;
+}
+
+.image-1 {
+    
+}
+
+.image-2 {
+    display: none;
+}
+
+.image-3 {
+    display: none;
 }
