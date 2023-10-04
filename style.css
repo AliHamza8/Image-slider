@@ -69,3 +69,15 @@ img:hover {
 .image-3 {
     display: none;
 }
+
+@media (max-width: 678px) {
+    img {
+        width: 15rem;
+        height: 20rem;
+    }
+
+    button {
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+}
