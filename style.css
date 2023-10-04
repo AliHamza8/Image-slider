@@ -45,12 +45,12 @@ img {
     border-radius: 1rem;
     cursor: pointer;
     box-shadow: 1px 3px 14px 5px rgb(105, 104, 104);
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 img:hover {
-    width: 42vw;
-    height: 92vh;
+    width: 41vw;
+    height: 91vh;
     box-shadow: 3px 7px 10px 5px rgb(105, 104, 104);
 }
 
@@ -59,7 +59,7 @@ img:hover {
 }
 
 .image-1 {
-    
+    display: block;
 }
 
 .image-2 {
